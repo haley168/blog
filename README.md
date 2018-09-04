@@ -42,3 +42,6 @@
 
 ## UI相关知识
 1. [216 Web安全色](http://www.h-ui.net/websafecolors.shtml)
+
+## 学习笔记
+1. [git学习笔记](pages/weixin.md)
