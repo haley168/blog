@@ -2,6 +2,7 @@
 >1. git托管平台
 coding  github gitlab 码云 gogs
 >2. 来源 [廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+
 ##### 基本概念
 1. 工作区（Working Directory）--电脑的文件夹
 1. 版本库（Repository）--其实就是那个隐藏的.git文件夹
@@ -14,6 +15,7 @@ mkdir learngit
 cd learngit
 pwd
 ```
+
 ##### 初始化仓库
 ```
 git init
