@@ -44,4 +44,4 @@
 1. [216 Web安全色](http://www.h-ui.net/websafecolors.shtml){:target="_blank"}
 
 ## 学习笔记
-1. [git学习笔记](pages/weixin.md){:target="_blank"}
+1. [git学习笔记](pages/git.md){:target="_blank"}
