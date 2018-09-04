@@ -12,6 +12,7 @@
 1. [强制不换行与强制换行](https://www.cnblogs.com/haley168/p/wrong.html)
 1. [css3截取字符串与js截取字符串](https://www.cnblogs.com/haley168/p/wrong.html)
 1. [多个背景图设置](https://www.cnblogs.com/haley168/p/wrong.html)
+1. [比较常用的几种loading](http://www.jq22.com/jquery-info4405)
 
 ## 数据查找替换相关
 1. [正则检查是否包含某个字符串](https://www.cnblogs.com/haley168/p/wrong.html)
@@ -22,3 +23,13 @@
 ## 开发工具
 1. [webstorm正则批量搜索与替换](https://www.cnblogs.com/haley168/p/search.html)
 1. [屏幕尺寸获取](https://haley1688.oschina.io/toolshaley/pages/getWidth.html)
+
+## UI相关工具
+1. [图片在线压缩](https://tinypng.com/)
+1. [图片在线ps处理](http://www.uupoop.com/ps/)
+1. [常用颜色值对照表](http://tool.oschina.net/commons?type=3)
+1. [颜色格式转化](https://haley1688.oschina.io/pages/colorTransformation.html)
+1. [图片转图标字体](https://haley1688.oschina.io/pages/icoFont/index.html)
+
+## UI相关知识
+1. [216 Web安全色](http://www.h-ui.net/websafecolors.shtml)
