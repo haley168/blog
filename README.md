@@ -4,7 +4,16 @@
 [自建博客](http://www.nobug1688.com/2017/08/16/usemore/) 
 [博客园cnblogs](http://www.cnblogs.com/haley168/) 
 [开源中国oschina](https://haley1688.oschina.io/toolshaley/index.html)
+
 ## 微信小程序
+1. [微信小程序swiper禁止手动滚动的方法](http://www.nobug1688.com/2018/07/27/%e5%be%ae%e4%bf%a1%e5%b0%8f%e7%a8%8b%e5%ba%8fswiper%e7%a6%81%e6%ad%a2%e6%89%8b%e5%8a%a8%e6%bb%9a%e5%8a%a8%e7%9a%84%e6%96%b9%e6%b3%95/)
+1. [微信小程序部分滚动scroll-view案例](http://www.nobug1688.com/2018/05/21/%e5%be%ae%e4%bf%a1%e5%b0%8f%e7%a8%8b%e5%ba%8f%e9%83%a8%e5%88%86%e6%bb%9a%e5%8a%a8scroll-view%e6%a1%88%e4%be%8b/)
+1. [小程序禁止页面拉动（非禁止小下拉刷新）](http://www.nobug1688.com/2018/05/16/%e5%b0%8f%e7%a8%8b%e5%ba%8f%e7%a6%81%e6%ad%a2%e9%a1%b5%e9%9d%a2%e6%8b%89%e5%8a%a8%ef%bc%88%e9%9d%9e%e7%a6%81%e6%ad%a2%e5%b0%8f%e4%b8%8b%e6%8b%89%e5%88%b7%e6%96%b0%ef%bc%89/)
+1. [微信小程序阻止事件冒泡的方法](http://www.nobug1688.com/2018/04/10/%e5%be%ae%e4%bf%a1%e5%b0%8f%e7%a8%8b%e5%ba%8f%e9%98%bb%e6%ad%a2%e4%ba%8b%e4%bb%b6%e5%86%92%e6%b3%a1%e7%9a%84%e6%96%b9%e6%b3%95/)
+1. [swiper组件 添加左右箭头](http://www.nobug1688.com/2018/04/19/swiper%e7%bb%84%e4%bb%b6-%e6%b7%bb%e5%8a%a0%e5%b7%a6%e5%8f%b3%e7%ae%ad%e5%a4%b4/)
+1. [小程序顶部栏高度，小程序底部栏高度](http://www.nobug1688.com/2018/05/08/%e5%b0%8f%e7%a8%8b%e5%ba%8f%e9%a1%b6%e9%83%a8%e6%a0%8f%e9%ab%98%e5%ba%a6%ef%bc%8c%e5%b0%8f%e7%a8%8b%e5%ba%8f%e5%ba%95%e9%83%a8%e6%a0%8f%e9%ab%98%e5%ba%a6/)
+1. [微信小程序的各种坑](pages/weixin.md)
+1. []()
 
 ## 可直接使用的代码
 1. [css编写三角形,鼠标hover显示阴影](https://www.cnblogs.com/haley168/p/shadow.html)
