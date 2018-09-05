@@ -44,6 +44,6 @@
 
 #### 学习笔记
 1. [git学习笔记](pages/git.md){:target="_blank"}
-
+1. [es6](pages/es6.md){:target="_blank"}
 #### 友情链接
 [小小杰](fsdf)
