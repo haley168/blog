@@ -29,10 +29,13 @@
 1. [移动端打电话，发短信，发邮件，激活安卓市场，地图定位GPS](https://www.cnblogs.com/haley168/p/wrong.html){:target="_blank"}
 
 #### 开发工具
+##### webstorm
 1. [webstorm正则批量搜索与替换](https://www.cnblogs.com/haley168/p/search.html){:target="_blank"}
+1. [webstorm默认编码格式修改](/pages/webstorm.md){:target="_blank"}
+##### 前端工具
 1. [屏幕尺寸获取](https://haley1688.oschina.io/toolshaley/pages/getWidth.html){:target="_blank"}
 
-#### UI相关工具
+##### UI相关工具
 1. [图片在线压缩](https://tinypng.com/){:target="_blank"}
 1. [图片在线ps处理](http://www.uupoop.com/ps/){:target="_blank"}
 1. [常用颜色值对照表](http://tool.oschina.net/commons?type=3){:target="_blank"}
@@ -46,4 +49,4 @@
 1. [git学习笔记](pages/git.md){:target="_blank"}
 1. [es6](pages/es6.md){:target="_blank"}
 #### 友情链接
-[小小杰](fsdf)
+[CNSYEAR NOTE'S](http://cnsyear.com)
