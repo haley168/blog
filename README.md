@@ -48,5 +48,6 @@
 #### 学习笔记
 1. [git学习笔记](pages/git.md){:target="_blank"}
 1. [es6](pages/es6.md){:target="_blank"}
+1. [微信小游戏](/pages/weixinSmallGame.md)
 #### 友情链接
 [CNSYEAR NOTE'S](http://cnsyear.com)
