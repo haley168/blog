@@ -44,6 +44,8 @@
 
 #### UI相关知识
 1. [216 Web安全色](http://www.h-ui.net/websafecolors.shtml){:target="_blank"}
+#### 计算机基础
+1.[可显示的 ASCII 代码 &#40; 	&#41;](https://blog.csdn.net/dayu9216/article/details/75037604)
 
 #### 学习笔记
 1. [git学习笔记](pages/git.md){:target="_blank"}
