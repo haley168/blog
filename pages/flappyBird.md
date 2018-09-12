@@ -18,8 +18,8 @@
 ![开始之前](/img/flappyBird/1.png)
 ![游戏结束](/img/flappyBird/2.png)
 ![游戏结束](/img/flappyBird/3.png)
-![游戏结束，微信版](/img/flappyBird/4.png)
 ![游戏结束，PC版](/img/flappyBird/5.png)
+![游戏结束，微信版](/img/flappyBird/4.png)
 
 ---
 ## 1.结构
@@ -250,7 +250,8 @@ movePipe(pipe:cc.Node,wScreen:number,wPipe:number){
         this.pipeParent2.x=pipeStartOffsetX+spaceX*2;
     }
 ```
----
+
+--------
 ## 6.开始制作游戏
 ### 小鸟扇翅膀
 > 实现原理,多张 **4张** 图来回切换
