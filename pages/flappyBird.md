@@ -111,6 +111,7 @@ start () {
         this.initPipe();
     }
 ```
+
 > update
 ```
 update (dt) {
@@ -246,7 +247,7 @@ movePipe(pipe:cc.Node,wScreen:number,wPipe:number){
 ```
 
 > pipeInit()
- ```
+```
     // 管子初始化
     pipeInit(){
         let pipeStartOffsetX:number=200;
