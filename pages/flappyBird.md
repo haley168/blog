@@ -115,44 +115,44 @@ start () {
 > update
 ```
 update (dt) {
-        let timeTmp=this.time+dt;
-        this.time=timeTmp;
-        if(this.time>0.5){
-            if(this.bird0.node.active){
-                this.bird0.node.active=false;
-                this.bird1.node.active=true;
-            }else if(this.bird1.node.active){
+  let timeTmp=this.time+dt;
+  this.time=timeTmp;
+  if(this.time>0.5){
+     if(this.bird0.node.active){
+        this.bird0.node.active=false;
+        this.bird1.node.active=true;
+     }else if(this.bird1.node.active){
                 this.bird1.node.active=false;
                 this.bird2.node.active=true;
-            }else if(this.bird2.node.active){
+     }else if(this.bird2.node.active){
                 this.bird2.node.active=false;
                 this.bird3.node.active=true;
-            }else if(this.bird3.node.active){
+     }else if(this.bird3.node.active){
                 this.bird3.node.active=false;
                 this.bird0.node.active=true;
-            }
+     }
             this.time=0;
-        }
+  }
 
-        if(!this.isGameStart){
-            return;
-        }
-        this.speed=this.speed-0.05;
-        this.birdParent.y=this.birdParent.y+this.speed;
-        this.birdParent.rotation=-this.speed*10;
+  if(!this.isGameStart){
+     return;
+  }
+  this.speed=this.speed-0.05;
+  this.birdParent.y=this.birdParent.y+this.speed;
+  this.birdParent.rotation=-this.speed*10;
 
-        this.moveBg(this.bg0);
-        this.moveBg(this.bg1);
+  this.moveBg(this.bg0);
+  this.moveBg(this.bg1);
 
-        this.movePipe(this.pipeParent0,this.wScreen,this.wPipe);
-        this.movePipe(this.pipeParent1,this.wScreen,this.wPipe);
-        this.movePipe(this.pipeParent2,this.wScreen,this.wPipe);
+  this.movePipe(this.pipeParent0,this.wScreen,this.wPipe);
+  this.movePipe(this.pipeParent1,this.wScreen,this.wPipe);
+  this.movePipe(this.pipeParent2,this.wScreen,this.wPipe);
 
-        this.checkCollision(this.birdParent,this.pipeParent0,this.wBird,this.hBird,this.wPipe);
-        this.checkCollision(this.birdParent,this.pipeParent1,this.wBird,this.hBird,this.wPipe);
-        this.checkCollision(this.birdParent,this.pipeParent2,this.wBird,this.hBird,this.wPipe);
+  this.checkCollision(this.birdParent,this.pipeParent0,this.wBird,this.hBird,this.wPipe);
+  this.checkCollision(this.birdParent,this.pipeParent1,this.wBird,this.hBird,this.wPipe);
+  this.checkCollision(this.birdParent,this.pipeParent2,this.wBird,this.hBird,this.wPipe);
 
-    }
+}
 ```
 
 > moveBg
@@ -185,7 +185,7 @@ movePipe(pipe:cc.Node,wScreen:number,wPipe:number){
     onClickUp(){
       this.speed=2.2;
     }
-```
+```  
 
 > onBtnStart
 ```
@@ -258,7 +258,7 @@ movePipe(pipe:cc.Node,wScreen:number,wPipe:number){
     }
 ```
 
---------
+---
 ## 6.开始制作游戏
 ### 小鸟扇翅膀
 > 实现原理,多张 **4张** 图来回切换
