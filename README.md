@@ -47,7 +47,11 @@
 1. [216 Web安全色](http://www.h-ui.net/websafecolors.shtml){:target="_blank"}
 
 # 计算机基础
-1.[可显示的 ASCII 代码 &#40; 	&#41;](https://blog.csdn.net/dayu9216/article/details/75037604)
+1.[可显示的 ASCII 代码 &#40; 	&#41;](https://blog.csdn.net/dayu9216/article/details/75037604){:target="_blank"}
+
+# 学习教程
+1. [es6](http://es6.ruanyifeng.com/){:target="_blank"}
+1. [typescript](https://www.tslang.cn/docs/home.html){:target="_blank"}
 
 # 学习笔记
 1. [git学习笔记](pages/git.md){:target="_blank"}
