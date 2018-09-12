@@ -1,5 +1,5 @@
 # 微信小游戏--FlappyBird[返回首页](/)
-
+## [在线Demo](https://haley168.github.io/flappyBird/index.html){:target="_blank"}
 ## 开发工具--Cocos Creator
 [Cocos Creator](http://docs.cocos.com/creator/manual/zh/getting-started/introduction.html)
 [Cocos Creator v2.0 用户手册](http://docs.cocos.com/creator/manual/zh/)
