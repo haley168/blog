@@ -5,46 +5,24 @@
 [Cocos Creator v2.0 用户手册](http://docs.cocos.com/creator/manual/zh/)
 [API参考](http://docs.cocos.com/creator/api/zh/)
 ## 参考资料
-[爱酷](http://www.icoolxue.com/album/affix/view/cocos2d-x/1/12?orderBy=create_time)
+[韩超老师在腾讯课堂](https://ke.qq.com/user/index/index.html#/plan/cid=313749&term_id=100372324)
+[完整版代码下载](/download/flappyBird_2.rar)
+## 文档说明
+> 压缩包内含开发源码及微信端和网页版项目代码
 
-
-## 概述
+## 游戏概述
 > 屏幕尺寸：288*512
 > 小鸟由于重力作用会不断下沉，通过点击屏幕可以使小鸟向上飞行。
+
+## 效果图(整理中)
+![开始之前](/img/flappyBird/1.png)
+![游戏结束](/img/flappyBird/2.png)
+![游戏结束](/img/flappyBird/3.png)
+![游戏结束，微信版](/img/flappyBird/4.png)
+![游戏结束，PC版](/img/flappyBird/5.png)
+
 ---
-## 开始制作游戏
-### 小鸟扇翅膀
-> 实现原理,多张 **4张** 图来回切换
-新建4个节点，bird0-bird4,将bird0_0 bird0_1 bird0_1 bird0_2 分别拖动至相应位置
-
-### 小鸟受重力作用，下沉
-> 通过改变speed将y值一直减小
-
-### 点击按钮后小鸟向上飞
-> 通过改变spped将y值一直增加
-
-### 背景图向左移动
-> 需要有自减参数
-
-### 管子移动
-> 需要有自减参数
-
-### 碰撞检查
-> 排除不碰撞的部分，剩下就是发生碰撞的位置
-
-### 小鸟添加旋转
-> rotation加上speed的数字
-
-### 计分器，管子移出屏幕后，记1分
-> 添加label节点，新建变量score
-
-### 主流程控制
-> 开始按钮和游戏结束提示
-
-### 游戏开始控制
->
----
-## 结构
+## 1.结构
 ### 资源结构
 >assets
 >> Scene
@@ -64,7 +42,7 @@
 >>> text_game_over
 >>> title
 ---
-## 层级管理器
+## 2.层级管理器
 > Canvas
 >> bg_day
 >> bg_day
@@ -90,7 +68,7 @@
 >> button_resume
 >> tile
 ---
-## 变量
+## 3.变量
 > time:number=0
 speed:number=0
 wScreen:number=288
@@ -100,7 +78,7 @@ wBird:number=24
 score:number=0
 isGameStart:bollean=false
 ---
-## 节点、精灵、Label
+## 4.节点、精灵、Label
 > @property(cc.Sprite) bird0: cc.Sprite = null;
 @property(cc.Sprite) bird1: cc.Sprite = null;
 @property(cc.Sprite) bird2: cc.Sprite = null;
@@ -122,7 +100,7 @@ isGameStart:bollean=false
 
 > @property(cc.Node) title:cc.Node=null;
 ---
-## 方法
+## 5.方法
 > start
 ```
 start () {
@@ -269,8 +247,40 @@ movePipe(pipe:cc.Node,wScreen:number,wPipe:number){
     }
 ```
 ---
+## 6.开始制作游戏
+### 小鸟扇翅膀
+> 实现原理,多张 **4张** 图来回切换
+新建4个节点，bird0-bird4,将bird0_0 bird0_1 bird0_1 bird0_2 分别拖动至相应位置
 
-## 问题整理
+### 小鸟受重力作用，下沉
+> 通过改变speed将y值一直减小
+
+### 点击按钮后小鸟向上飞
+> 通过改变spped将y值一直增加
+
+### 背景图向左移动
+> 需要有自减参数
+
+### 管子移动
+> 需要有自减参数
+
+### 碰撞检查
+> 排除不碰撞的部分，剩下就是发生碰撞的位置
+
+### 小鸟添加旋转
+> rotation加上speed的数字
+
+### 计分器，管子移出屏幕后，记1分
+> 添加label节点，新建变量score
+
+### 主流程控制
+> 开始按钮和游戏结束提示
+
+### 游戏开始控制
+>
+---
+
+## 7.问题整理
 ### 无法显示任何内容
 >报错：vconsole.min.js:11 TypeError: Cannot read property 'getExtension' of null
 >原因：QQ浏览器对webgl的支持有问题
