@@ -41,6 +41,7 @@
 >>> pipe_up
 >>> text_game_over
 >>> title
+
 ---
 ## 2.层级管理器
 > Canvas
@@ -66,7 +67,8 @@
 >> Label
 >> text_game_over
 >> button_resume
->> tile
+>> title
+
 ---
 ## 3.变量
 > time:number=0
@@ -77,6 +79,7 @@ hBird:number=34
 wBird:number=24
 score:number=0
 isGameStart:bollean=false
+
 ---
 ## 4.节点、精灵、Label
 > @property(cc.Sprite) bird0: cc.Sprite = null;
@@ -99,6 +102,7 @@ isGameStart:bollean=false
 > @property(cc.Button) btnStart:cc.Button=null;
 
 > @property(cc.Node) title:cc.Node=null;
+
 ---
 ## 5.方法
 > start
