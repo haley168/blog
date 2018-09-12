@@ -153,6 +153,7 @@ update (dt) {
 
     }
 ```
+
 > moveBg
 ```
 moveBg(bg:cc.Node){
@@ -162,6 +163,7 @@ moveBg(bg:cc.Node){
         }
     }
 ```
+
 > movePipe
 ```
 movePipe(pipe:cc.Node,wScreen:number,wPipe:number){
@@ -175,6 +177,7 @@ movePipe(pipe:cc.Node,wScreen:number,wPipe:number){
         }
     }
 ```
+
 > onClickUp
 ```
 // 背景点击事件
@@ -182,6 +185,7 @@ movePipe(pipe:cc.Node,wScreen:number,wPipe:number){
       this.speed=2.2;
     }
 ```
+
 > onBtnStart
 ```
 // 游戏开始
@@ -225,6 +229,7 @@ movePipe(pipe:cc.Node,wScreen:number,wPipe:number){
         this.title.active=true;
     }
 ```
+
 > reset()
 ```
 // 游戏重置
@@ -239,6 +244,7 @@ movePipe(pipe:cc.Node,wScreen:number,wPipe:number){
         this.lbScore.string='0';
     }
 ```
+
 > pipeInit()
  ```
     // 管子初始化
