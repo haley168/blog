@@ -185,7 +185,7 @@ movePipe(pipe:cc.Node,wScreen:number,wPipe:number){
     onClickUp(){
       this.speed=2.2;
     }
-```  
+```
 
 > onBtnStart
 ```

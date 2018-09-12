@@ -32,6 +32,7 @@
 ## webstorm
 1. [webstorm正则批量搜索与替换](https://www.cnblogs.com/haley168/p/search.html){:target="_blank"}
 1. [webstorm默认编码格式修改](/pages/webstorm.md){:target="_blank"}
+
 ## 前端工具
 1. [屏幕尺寸获取](https://haley1688.oschina.io/toolshaley/pages/getWidth.html){:target="_blank"}
 
@@ -44,12 +45,14 @@
 
 # UI相关知识
 1. [216 Web安全色](http://www.h-ui.net/websafecolors.shtml){:target="_blank"}
+
 # 计算机基础
 1.[可显示的 ASCII 代码 &#40; 	&#41;](https://blog.csdn.net/dayu9216/article/details/75037604)
 
 # 学习笔记
 1. [git学习笔记](pages/git.md){:target="_blank"}
 1. [es6](pages/es6.md){:target="_blank"}
+1. [Cocos Creator](http://forum.cocos.com/t/creator-3-31/39917)
 1. [微信小游戏](/pages/weixinSmallGame.md){:target="_blank"}
 1. [微信小游戏--flappyBird](/pages/flappyBird.md){:target="_blank"}
 
