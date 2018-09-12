@@ -1,4 +1,4 @@
-#### 微信小程序的各种坑（各种bug）[返回首页](/)
+# 微信小程序的各种坑（各种bug）[返回首页](/)
 1. [背景图片显示问题](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=393)
 >css中只能使用网络图片或者base64，而不能使用本地图片
 

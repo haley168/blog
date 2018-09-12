@@ -1,51 +1,51 @@
 # 微信小游戏--FlappyBird[返回首页](/)
 
-#### 开发工具--Cocos Creator
+## 开发工具--Cocos Creator
 [Cocos Creator](http://docs.cocos.com/creator/manual/zh/getting-started/introduction.html)
 [Cocos Creator v2.0 用户手册](http://docs.cocos.com/creator/manual/zh/)
 [API参考](http://docs.cocos.com/creator/api/zh/)
-#### 参考资料
+## 参考资料
 [爱酷](http://www.icoolxue.com/album/affix/view/cocos2d-x/1/12?orderBy=create_time)
 
-## Flappy Bird 游戏开发
-### 概述
+
+## 概述
 > 屏幕尺寸：288*512
 > 小鸟由于重力作用会不断下沉，通过点击屏幕可以使小鸟向上飞行。
 ---
-### 开始制作游戏
-#### 小鸟扇翅膀
+## 开始制作游戏
+### 小鸟扇翅膀
 > 实现原理,多张 **4张** 图来回切换
 新建4个节点，bird0-bird4,将bird0_0 bird0_1 bird0_1 bird0_2 分别拖动至相应位置
 
-#### 小鸟受重力作用，下沉
+### 小鸟受重力作用，下沉
 > 通过改变speed将y值一直减小
 
-#### 点击按钮后小鸟向上飞
+### 点击按钮后小鸟向上飞
 > 通过改变spped将y值一直增加
 
-#### 背景图向左移动
+### 背景图向左移动
 > 需要有自减参数
 
-#### 管子移动
+### 管子移动
 > 需要有自减参数
 
-#### 碰撞检查
+### 碰撞检查
 > 排除不碰撞的部分，剩下就是发生碰撞的位置
 
-#### 小鸟添加旋转
+### 小鸟添加旋转
 > rotation加上speed的数字
 
-#### 计分器，管子移出屏幕后，记1分
+### 计分器，管子移出屏幕后，记1分
 > 添加label节点，新建变量score
 
-#### 主流程控制
+### 主流程控制
 > 开始按钮和游戏结束提示
 
-#### 游戏开始控制
+### 游戏开始控制
 >
 ---
-### 结构
-#### 资源结构
+## 结构
+### 资源结构
 >assets
 >> Scene
 >>> main
@@ -64,7 +64,7 @@
 >>> text_game_over
 >>> title
 ---
-#### 层级管理器
+## 层级管理器
 > Canvas
 >> bg_day
 >> bg_day
@@ -90,7 +90,7 @@
 >> button_resume
 >> tile
 ---
-#### 变量
+## 变量
 > time:number=0
 speed:number=0
 wScreen:number=288
@@ -100,7 +100,7 @@ wBird:number=24
 score:number=0
 isGameStart:bollean=false
 ---
-#### 节点、精灵、Label
+## 节点、精灵、Label
 > @property(cc.Sprite) bird0: cc.Sprite = null;
 @property(cc.Sprite) bird1: cc.Sprite = null;
 @property(cc.Sprite) bird2: cc.Sprite = null;
@@ -122,7 +122,7 @@ isGameStart:bollean=false
 
 > @property(cc.Node) title:cc.Node=null;
 ---
-#### 方法
+## 方法
 > start
 ```
 start () {
@@ -270,15 +270,20 @@ movePipe(pipe:cc.Node,wScreen:number,wPipe:number){
 ```
 ---
 
-### 问题整理
-#### 小鸟翅膀闪动飞快
+## 问题整理
+### 无法显示任何内容
+>报错：vconsole.min.js:11 TypeError: Cannot read property 'getExtension' of null
+>原因：QQ浏览器对webgl的支持有问题
+>解决办法：改为使用chrome浏览器就好了
+
+### 小鸟翅膀闪动飞快
 > 丢失如下代码：this.time=0;
-#### 小鸟丢失翅膀在下的帧
+### 小鸟丢失翅膀在下的帧
 > 将canvas里面的小鸟删除，重新拖进一下
-#### 没开始之前，小鸟乱飞
+### 没开始之前，小鸟乱飞
 > 小鸟的某一帧的基准点不在0点
-#### 管子不显示
+### 管子不显示
 > 移动管子的函数写错了
 
-#### 控制参数不变的问题
+### 控制参数不变的问题
 > 有时候修改js代码中的参数值，cocos里面的值并不随着改变。
