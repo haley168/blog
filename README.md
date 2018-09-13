@@ -62,7 +62,7 @@
 1. [微信小游戏--flappyBird](/pages/flappyBird.md){:target="_blank"}
 1. [markdown语法](/pages/md.md){:target="_blank"}
 
-## 图图表制作
+## 图表制作
 1. [d3](http://www.imooc.com/learn/103){:target="_blank"}
 1. [g2](https://antv.alipay.com/zh-cn/g2/3.x/demo/bar/basic-column.html){:target="_blank"}
 

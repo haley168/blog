@@ -200,6 +200,7 @@ movePipe(pipe:cc.Node,wScreen:number,wPipe:number){
 ```
 
 > checkCollision
+
 ```
 // 碰撞检查
     checkCollision(bird:cc.Node,pipe:cc.Node){
@@ -221,6 +222,7 @@ movePipe(pipe:cc.Node,wScreen:number,wPipe:number){
 ```
 
 > gameOver()
+
 ```
 // 游戏结束
     gameOver(){
@@ -232,6 +234,7 @@ movePipe(pipe:cc.Node,wScreen:number,wPipe:number){
 ```
 
 > reset()
+
 ```
 // 游戏重置
     reset(){
@@ -247,6 +250,7 @@ movePipe(pipe:cc.Node,wScreen:number,wPipe:number){
 ```
 
 > pipeInit()
+
 ```
     // 管子初始化
     pipeInit(){
