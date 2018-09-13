@@ -60,7 +60,7 @@
 1. [Cocos Creator](http://forum.cocos.com/t/creator-3-31/39917)
 1. [微信小游戏](/pages/weixinSmallGame.md){:target="_blank"}
 1. [微信小游戏--flappyBird](/pages/flappyBird.md){:target="_blank"}
-1. [markdown语法](/pages/nd.md){:target="_blank"}
+1. [markdown语法](/pages/md.md){:target="_blank"}
 
 ## 图图表制作
 1. [d3](http://www.imooc.com/learn/103){:target="_blank"}
