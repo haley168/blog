@@ -54,11 +54,17 @@
 1. [typescript](https://www.tslang.cn/docs/home.html){:target="_blank"}
 
 # 学习笔记
+
 1. [git学习笔记](pages/git.md){:target="_blank"}
 1. [es6](pages/es6.md){:target="_blank"}
 1. [Cocos Creator](http://forum.cocos.com/t/creator-3-31/39917)
 1. [微信小游戏](/pages/weixinSmallGame.md){:target="_blank"}
 1. [微信小游戏--flappyBird](/pages/flappyBird.md){:target="_blank"}
+1. [markdown语法](/pages/nd.md){:target="_blank"}
+
+## 图图表制作
+1. [d3](http://www.imooc.com/learn/103){:target="_blank"}
+1. [g2](https://antv.alipay.com/zh-cn/g2/3.x/demo/bar/basic-column.html){:target="_blank"}
 
 # 友情链接
 [CNSYEAR NOTE'S](http://cnsyear.com){:target="_blank"}
