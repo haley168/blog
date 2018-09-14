@@ -51,7 +51,7 @@
 
 # 学习教程
 1. [es6](http://es6.ruanyifeng.com/){:target="_blank"}
-1. [typescript](https://www.tslang.cn/docs/home.html){:target="_blank"}
+1. [typescript|TS](https://www.tslang.cn/docs/home.html){:target="_blank"}
 
 # 学习笔记
 
@@ -61,6 +61,7 @@
 1. [微信小游戏](/pages/weixinSmallGame.md){:target="_blank"}
 1. [微信小游戏--flappyBird](/pages/flappyBird.md){:target="_blank"}
 1. [markdown语法](/pages/md.md){:target="_blank"}
+1. [cocos Creator弹球开发](/pages/ball.md){:target="_blank"}
 
 ## 图表制作
 1. [d3](http://www.imooc.com/learn/103){:target="_blank"}

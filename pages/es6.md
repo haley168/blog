@@ -15,6 +15,56 @@
 > const声明一个只读的常量。一旦声明，常量的值就不能改变。
 const PI = 3.1415;
 
+## 解构赋值
+### 数组的结解构赋值
+>let [a, b, c] = [1, 2, 3];
+a//1
+
+### 对象的解构赋值
+> let { foo, bar } = { foo: "aaa", bar: "bbb" };
+foo // "aaa"
+bar // "bbb"
+
+### 字符串的解构赋值
+>const [a, b, c, d, e] = 'hello';
+ a // "h"
+ b // "e"
+ c // "l"
+ d // "l"
+ e // "o"
+
+### 数值和布尔值的解构赋值
+>
+
+### 函数参数的解构赋值
+```javascript
+  function add([x, y]){
+    return x + y;
+  }
+
+  add([1, 2]); // 3
+```
+
+## 字符串的扩展
+### includes(), startsWith(), endsWith()
+### repeat()
+### padStart()，padEnd()
+### 模板字符串
+
+
+## 正则的扩展
+## 数值的扩展
+
+### isInteger()
+>Number.isInteger()用来判断一个数值是否为整数
+> 存在误判：Number.isInteger(3.0000000000000002) // true
+###
+
+###
+>
+
+###
+>
 
 
 # 工具
