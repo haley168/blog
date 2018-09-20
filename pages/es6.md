@@ -58,6 +58,85 @@ bar // "bbb"
 ### isInteger()
 >Number.isInteger()用来判断一个数值是否为整数
 > 存在误判：Number.isInteger(3.0000000000000002) // true
+
+## 函数的扩展
+### 箭头函数
+```
+var f = v => v;
+// 等同于
+var f = function (v) {
+ return v;
+};
+```
+
+## 数组的扩展
+>2018-9-20 11:29:13
+###
+
+
+## 对象的扩展
+###
+
+
+## Symbol
+###
+
+
+## Set和Map数据结构
+###
+
+## Proxy
+###
+
+## Reflect
+###
+
+## Promise
+###
+
+## Iterator和for...of循环
+###
+
+## Generator 函数的语法
+
+## Generator 函数的异步应用
+###
+
+## async 函数
+###
+
+## Class 的基本语法
+###
+
+## Class的继承
+###
+
+## Decorator
+###
+
+## Module的语法
+###
+
+## Module的加载实现
+###
+
+## 编程风格
+###
+
+## 读懂规格
+###
+
+## ArrayBuffer
+###
+
+## 最新提案
+###
+
+## 参考链接
+###
+
+
+
 ###
 
 ###
