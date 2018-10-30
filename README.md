@@ -23,6 +23,7 @@
 1. [比较常用的几种loading](http://www.jq22.com/jquery-info4405){:target="_blank"}
 1. [手机移动端WEB资源整合,特殊情况处理](http://www.daqianduan.com/6281.html){:target="_blank"}
 1. [Underscore.js 入门-常用方法介绍](https://www.cnblogs.com/fu-fu/p/7232745.html){:target="_blank"}
+1. [layuiAdmin 后台管理模板](https://www.layui.com/admin/pro/){:target="_blank"}
 
 # 数据查找替换相关
 1. [正则检查是否包含某个字符串](https://www.cnblogs.com/haley168/p/wrong.html){:target="_blank"}
@@ -37,6 +38,10 @@
 
 ## 前端工具
 1. [屏幕尺寸获取](https://haley1688.oschina.io/toolshaley/pages/getWidth.html){:target="_blank"}
+
+## API
+1. [css速查手册](http://www.css88.com/book/css/quicksearch.htm)
+
 
 ## UI相关工具
 1. [图片在线压缩](https://tinypng.com/){:target="_blank"}
