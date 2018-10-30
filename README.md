@@ -47,8 +47,8 @@
 1. [图片在线压缩](https://tinypng.com/){:target="_blank"}
 1. [图片在线ps处理](http://www.uupoop.com/ps/){:target="_blank"}
 1. [常用颜色值对照表](http://tool.oschina.net/commons?type=3){:target="_blank"}
-1. [颜色格式转化](https://haley1688.oschina.io/pages/colorTransformation.html){:target="_blank"}
-1. [图片转图标字体](https://haley1688.oschina.io/pages/icoFont/index.html){:target="_blank"}
+1. [颜色格式转化](https://haley1688.gitee.io/toolshaley/pages/colorTransformation.html){:target="_blank"}
+1. [图片转图标字体](https://haley1688.gitee.io/toolshaley/pages/icoFont/index.html){:target="_blank"}
 
 # UI相关知识
 1. [216 Web安全色](http://www.h-ui.net/websafecolors.shtml){:target="_blank"}
